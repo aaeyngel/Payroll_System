@@ -90,10 +90,8 @@ CREATE TABLE `employees` (
 --
 
 INSERT INTO `employees` (`id`, `employee_id`, `firstname`, `lastname`, `email`, `password`, `phone`, `role_id`, `department_id`, `shift_id`, `hire_date`, `status`, `is_hr`, `is_admin`, `created_at`) VALUES
-(1, 'EMP001', 'Admin', 'User', 'admin@company.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 1, 1, 2, '2024-01-01', 'active', 1, 1, '2026-05-13 01:40:24'),
-(2, 'EMP002', 'Juan', 'Dela Cruz', 'juan@company.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 3, 2, 2, '2024-02-15', 'active', 0, 0, '2026-05-13 01:40:39'),
-(3, 'EMP003', 'Maria', 'Santos', 'maria@company.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 4, 3, 2, '2024-03-01', 'active', 0, 0, '2026-05-13 01:41:01'),
-(4, 'EMP004', 'Pedro', 'Reyes', 'pedro@company.com', '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', NULL, 2, 2, 1, '2024-01-15', 'active', 0, 0, '2026-05-13 01:41:01');
+(1, 'EMP001', 'Admin', 'User', 'admin@company.com', '$2y$10$DJIA5Txv8W0QWBwc7qZksO7MT.h7veVlSpDack5Jk36YeGPOB8YQS', NULL, 1, 1, 2, '2024-01-01', 'active', 1, 1, '2026-05-13 01:40:24'),
+(2, 'EMP002', 'Juan', 'Dela Cruz', 'juan@company.com', '$2y$10$IaBJ9JcNHHOiP9nyruUPXenwxdDmPQJe0m5GI14/pp280ejuHhzEy', NULL, 3, 2, 2, '2024-02-15', 'active', 0, 0, '2026-05-13 01:40:39');
 
 -- --------------------------------------------------------
 
